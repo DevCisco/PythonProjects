@@ -1,0 +1,11 @@
+a, b , c = 2, 3, 5
+print(a*b*c)
+print(a**a)
+print(a**b)
+print(a**c)
+print(b**a)
+print(b**b)
+print(b**c)
+print(c**a)
+print(c**b)
+print(c**c)
