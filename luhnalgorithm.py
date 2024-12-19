@@ -1,0 +1,25 @@
+def verificaluhn():
+    somma=0
+    x=16
+    n=[]
+    for i in range(0,x):
+        element=int(input("Inserire la cifra della carta: "))
+        n.append(element)
+    print("ciccio", n)
+    for i in range (x,0):
+        if i%2==0:
+            n[i]=n[i]*2
+            if n[i]>10:
+                n[i]=(n[i]%2)+1
+    for i in range (x,0):
+       somma=sum(n[i])
+    if ((somma%10)==0):
+        print("Corretto")
+    else:
+        print("Non corretto")
+
+def main():
+    verificaluhn()
+
+if __name__ == '__main__':
+    main()
