@@ -1,3 +1,4 @@
+import time
 def verificaluhn():
     somma=0
     x=15
@@ -19,9 +20,10 @@ def verificaluhn():
     else:
         print("Non corretto, inserire nuovamente il numero")
         verificaluhn()
-
-def main():
-    verificaluhn()
-
-if __name__ == '__main__':
-    main()
+toto=time.localtime()
+start_time = time.time()
+end_time=time.localtime()
+verificaluhn()
+print("Start time: ", toto)
+print("Finish Time: ", end_time)
+print("Execution time: %s seconds" % (time.time() - start_time))
