@@ -16,7 +16,8 @@ def verificaluhn():
     if ((somma%10)==0):
         print("Corretto")
     else:
-        print("Non corretto")
+        print("Non corretto, inserire nuovamente il numero")
+        verificaluhn()
 
 def main():
     verificaluhn()
