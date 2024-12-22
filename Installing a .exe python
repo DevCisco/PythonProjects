@@ -1,0 +1,4 @@
+Open cmd
+cd up to Python Projects
+pyinstaller nome_script.py --onefile
+pyinstaller nome_script.py --onefile --noconsole if the script has a GUI
