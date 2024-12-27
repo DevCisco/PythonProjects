@@ -4,7 +4,10 @@ VERTELTK DATA ENTRY PROGRAM SPEC
 
 Description
 -----------
-This program facilitates verifying of the country of origing of the number that is calling
+This program is a simple data entry program that allows the user to enter a prefix and get the country of origin of that prefix. The program will also suggest the country if the prefix is not found in the database.
+The user must enter a prefix and a number, and the program will return the country of origin of that prefix.
+If the prefix is not found in the database, the program will terminate and the user must restart the program.
+Otherwise the user will see the country of origin of the prefix and the program will terminate.
 
 Requirements
 --------------------
@@ -32,6 +35,7 @@ The program must:
     * Give correct suggestions,
     * Be efficiently operable by keyboard-only users.
 
+These are all the values that the program can check: 
 +-----------+------------+---------+--------------------------------------------------------------------------+----------------------------+
 |Field      | Type       |Unit     |Valid Values                                                              |Description                 |
 +===========+============+=========+==========================================================================+============================+
@@ -51,4 +55,4 @@ The program must:
 |           |            |         | 974-975-976-977-978-979-991-992-993-994-995-996-997-998-1242-1246-1264   |                            |
 |           |            |         | 1268-1284-1340-1345-1441-1473-1649-1658-1664-1670-1671-1684-1721-1758    |                            |
 |           |            |         | 1767-1784-1787-1809-1829-1849-1868-1869-1876-5993-5994-5995-5997-5998    |                            |
-|           |            |         | 5999                                                                     |                            |
+|           |            |         | 5999-                                                                    |                            |
