@@ -2,3 +2,4 @@ Open cmd
 cd up to Python Projects
 pyinstaller nome_script.py --onefile
 pyinstaller nome_script.py --onefile --noconsole if the script has a GUI
+python -m PyInstaller --onefile --windowed --collect-all PyQt6 luhn_gui.py if the script has a GUI with PyQt6
